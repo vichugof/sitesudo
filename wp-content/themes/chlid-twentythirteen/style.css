@@ -1,0 +1,47 @@
+/*
+Theme Name:     Twenty Thirteen Child
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Thirteen theme
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       twentythirteen
+Version:        0.1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+@import url("./css/bootstrap.css");
+
+@import url("./css/jumbotron-narrow.css");
+
+.promt{
+	margin-bottom: 50px;
+}
+
+a.btn:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-pills > li.current-menu-item > a, .nav-pills > li.current-menu-item > a:hover, .nav-pills > li.current-menu-item > a:focus {
+    
+    color: #ffffff;
+    background-color: #428bca;
+}
+
+.header{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.site-header{
+    background:none !important;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
