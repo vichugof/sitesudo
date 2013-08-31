@@ -64,8 +64,8 @@
 			</div>
 		</header>
 
-		<div class="jumbotron">
+		<!--<div class="jumbotron">
 			<h1>Company <?php bloginfo( 'name' );?></h1>
 			<p class="lead"><?php bloginfo( 'description' ); ?></p>
 			<p><a class="btn btn-lg btn-success" href="#"><?php _e( 'Sign up today', 'twentythirteen' );?> </a></p>
-		</div>
+		</div>-->

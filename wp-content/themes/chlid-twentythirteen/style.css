@@ -45,3 +45,105 @@ a.btn:visited {
 .navbar{
     margin-bottom: 0px;
 }
+
+.navigation a {
+	color: #428bca ;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+
+
+
+
+.entry-title {
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #428bca;
+    background-image: -moz-linear-gradient(top, #0088CC, #428bca);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088CC), to(#428bca));
+    background-image: -webkit-linear-gradient(top, #0088CC, #428bca);
+    background-image: -o-linear-gradient(top, #0088CC, #428bca);
+    background-image: linear-gradient(to bottom, #0088CC, #428bca);
+
+    background-repeat: repeat-x;
+    border-color: #0044CC #0044CC #003f81;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+    padding: 5px 14px 6px;
+    /*margin: 0px 4px 0px 0px;*/
+    line-height: normal;
+    /*border: 1px solid #ccc;*/
+
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-transition: 0.1s linear background-image;
+    -moz-transition: 0.1s linear background-image;
+    -o-transition: 0.1s linear background-image;
+    transition: 0.1s linear background-image;
+    overflow: visible;
+
+    vertical-align: middle;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    border-top-style: solid;
+    border-top-width: 1px;
+    text-align: center;
+    /*width: 100%;*/
+}
+
+.entry-header{
+    /*margin-left: 0px;
+    margin-right: 0px; */
+}
+
+body {
+    background-color: #F8F7F7;
+    
+}
+
+.container{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.twitter {
+    background: url(images/twitter.png) no-repeat;
+    border-radius: 5px;
+}
+
+.twitter {
+    background: url(images/twitter.png) no-repeat;
+    border-radius: 5px;
+}
+
+.facebook{
+    background: url(images/facebook.png) no-repeat;
+}
+
+.google {
+    background: url(images/google.png) no-repeat;
+}
+
+.third_party {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    width: 76px;
+    height: 76px;
+    /*float: left;*/
+    display: block;
+    padding: 0 10px 10px 0;
+}
