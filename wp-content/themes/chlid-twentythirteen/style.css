@@ -124,11 +124,6 @@ body {
     border-radius: 5px;
 }
 
-.twitter {
-    background: url(images/twitter.png) no-repeat;
-    border-radius: 5px;
-}
-
 .facebook{
     background: url(images/facebook.png) no-repeat;
 }
@@ -146,4 +141,29 @@ body {
     /*float: left;*/
     display: block;
     padding: 0 10px 10px 0;
+}
+
+.wpcf7-not-valid-tip{
+    color: #b94a48;
+    background-color: #f2dede !important;
+    border-color: #eed3d7 !important;
+    
+    padding: 15px !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.wpcf7-validation-errors{
+    color: #c09853;
+    background-color: #fcf8e3 !important;
+    border-color: #fbeed5 !important;
+    margin: 0em 0em 0em !important;
+    padding: 15px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
