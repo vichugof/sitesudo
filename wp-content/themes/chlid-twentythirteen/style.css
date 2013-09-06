@@ -167,3 +167,11 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+@media (max-width: 643px){
+    .entry-title, .format-chat .entry-title, .format-image .entry-title, .format-gallery .entry-title, .format-video .entry-title
+    {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
