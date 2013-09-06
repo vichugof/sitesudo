@@ -18,6 +18,32 @@ Version:        0.1.0
 	margin-bottom: 50px;
 }
 
+.btn-sudo-home{
+    /*background: #d94412;
+    background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%);
+    background: linear-gradient(to bottom, #d94412 0%, #e05d22 100%);*/
+    background: #DA5D33;
+    background: -webkit-linear-gradient(top, #DA5D33 0%, #e05d22 100%);
+    background: linear-gradient(to bottom, #DA5D33 0%, #e05d22 100%);
+    /*border-top: 3px solid #b93207;
+    border-bottom: 3px solid #b93207;*/
+    /*border-color: #b93207;*/
+    border-color: #DA5D33;
+}
+
+.btn-sudo-home:hover,
+.btn-sudo-home:focus,
+.btn-sudo-home:active,
+.btn-sudo-home.active{
+    color: #ffffff;
+  /*background: #DA5D33;*/
+  /*background-color: #d94412;*/
+    background: #d94412;
+    background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%);
+    background: linear-gradient(to bottom, #d94412 0%, #e05d22 100%);
+    border-color: #DA5D33;
+}
+
 a.btn:visited {
     text-decoration: underline;
     color: white;
@@ -56,7 +82,9 @@ a.btn:visited {
   text-decoration: underline;
 }
 
-
+.footer a {
+	color: #428bca ;
+}
 
 
 
