@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `sudo` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `sudo`;
+CREATE DATABASE  IF NOT EXISTS `u559625528_sudo` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `u559625528_sudo`;
 -- MySQL dump 10.13  Distrib 5.5.32, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: sudo
+-- Host: mysql.hostinger.co    Database: u559625528_sudo
 -- ------------------------------------------------------
 -- Server version	5.5.32-0ubuntu0.12.04.1
 
