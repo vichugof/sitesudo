@@ -196,6 +196,21 @@ body {
     box-sizing: border-box;
 }
 
+.wpcf7-mail-sent-ok{
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    
+    margin: 0em 0em 0em !important;
+    padding: 15px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 @media (max-width: 643px){
     .entry-title, .format-chat .entry-title, .format-image .entry-title, .format-gallery .entry-title, .format-video .entry-title
     {
@@ -357,4 +372,35 @@ a.post-thumbnail-a:active > img{
 
 .header-opacity-extreme{
     opacity: 0;
+}
+
+.marketing{
+    margin: 0 0;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.list-post-home{
+    overflow: hidden;
+}
+
+.list-post-home a{
+    font-size: 17px !important;
+    font-weight: 500;
+}
+
+.list-post-home p, .list-post-home small{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+.list-post-home small, .list-post-home small>cite{
+    text-transform: none;
+    font-size: 12px !important;
+}
+
+.page-home article{
+    padding-bottom: 0px;
 }
